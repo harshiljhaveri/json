@@ -1,0 +1,68 @@
+{
+  "info": {
+    "firstName": "Harshil",
+    "lastName": "Jhaveri",
+    "email": "harshil0410@gmail.com",
+    "mobile": "9167122577",
+    "residence": "Mumbai"
+  },
+  "education": {
+    "undergrad": "Bachelor of Engineering (B.E), Computer Science & Engineering (2017 - 2021)-Dwarkadas Jivanlal Sanghvi College of Engineering",
+    "jc": "XII (Senior Secondary), Science Year of Completion: 2017 HSC Board (Pace Junior Science College) Percentage : 90.92%",
+    "school": "X (Secondary) Year of Completion: 2015 ICSE Board (Lilavatibai Podar Senior Secondary School) Percentage : 96.20%"
+  },
+  "internships": {
+    "tech_content": {
+      "firm": "Sciensopedia(Virtual)",
+      "Date": "Feb 2018 - Jun 2018",
+      "role": "Wrote articles on certain upcoming and influential topics in the Software Industry like Virtual Assistance,Big Data,Data Philanthropy,etc"
+    },
+    "camp_ambass": {
+      "firm": "Sciensopedia(Virtual)",
+      "Date": "Feb 2018 - Apr 2018 ",
+      "role": "Representative of the company in the college.As part of the work,I promoted various pages and activities of the Company in College manually through word of mouth and through my Social media and also joined in a few marketing strategies development"
+    }
+  },
+  "project": {
+    "library": {
+      "Title": "Library Management system",
+      "Date": "Jul 2018 - Present",
+      "Objective": " An attempt at simplifying the issuance and status check of books in a library "
+    },
+    "Cafe": {
+      "Title": "Cafe Management system",
+      "Date": "Jul 2018-Present",
+      "Objective": "A system to offer a digital menu based on the time and mood of the customer"
+    }
+  },
+  "skills": [
+    {
+      "skill": "Python",
+      "level": "Amateur"
+    },
+    {
+      "skill": "HTML",
+      "level": "Amateur"
+    },
+    {
+      "skill": "C Programming",
+      "level": "Amateur"
+    },
+    {
+      "skill": "Javascript",
+      "level": "Amateur"
+    },
+    {
+      "skill": "Java",
+      "level": "Amateur"
+    },
+    {
+      "skill": "All Microsoft Office Applications",
+      "level": "Advanced"
+    }
+  ],
+  "volunteering": {
+    "id1": "Public Relations Volunteer at Shrimad Rajchandra Mission(NGO)",
+    "id2": "Project Leader in Shrimad Rajchandra Love And Care's Blood Donation Project in 2015 for Mumbai Region"
+  }
+}
