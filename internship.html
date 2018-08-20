@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Harshil Jhaveri</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<style>
+body
+{
+     background-image: url(https://static1.squarespace.com/static/5873c778e6f2e14a3529e892/t/58d28fb817bffc2216062cb1/1490194393248/shutterstock_349563746.jpg?format=1500w);
+font-family: courier;
+font-size: 18px;
+}
+table {
+    font-family: algerian;
+    font-size: 28px;
+    border-collapse: collapse;
+    width: 20%;
+   border-spacing: 15px;
+   position: relative;
+   top: -10px;
+  
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 15px;
+    width:0%;
+}
+
+tr:nth-child(even) {
+    background-color: lightblue;
+    
+}
+
+tr:nth-child(odd) {
+    background-color: #33CCFF;
+    
+}   
+</style>
+<body>
+<h1 style="font-family:Impact;font-size: 50px;color: #330099; position: relative;left: 10px">Internships Done</h1>
+<div>
+<table class="table table-bordered table-striped" id="div">
+<tr>
+<td>Details</td>
+<td>Field</td>
+</tr>   
+</table>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $.getJSON("https://api.myjson.com/bins/15wolo", function(data){
+        var getdata='';
+            $.each(data, function(i,field)
+            {
+            getdata+='<tr>';
+            getdata+='<td><b>'+i+'</b></td>';
+            getdata+='<td><i>'+field+'</i></td>';
+            getdata+='</tr>';
+            
+            });
+            $("div").append(getdata);
+    });
+});
+
+</script>
+
+</body>
+</html>
